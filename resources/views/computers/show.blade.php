@@ -8,7 +8,7 @@
                 <form action="{{route('computers.destroy', ['computer' => $computer['id']])}}" method="POST">
                     @csrf
                     @method('DELETE')
-                    <button type="submit" class="w-20 text-white hover:bg-red-600/90 border rounded-xl bg-red-600 py-2">Delete Computers</button>
+                    <button type="submit" class="w-20 text-white hover:bg-red-600/90 border rounded-xl bg-red-600 py-2">Delete</button>
                 </form>
             </div>
         </div>
